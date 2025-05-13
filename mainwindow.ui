@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>620</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>620</width>
+    <height>530</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>std::deque demo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="list_widget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>11</y>
+      <width>256</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>340</width>
+      <height>510</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Алгоритмы</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="btn_begin">
+       <property name="text">
+        <string>begin</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="lbl_count">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="btn_find">
+       <property name="text">
+        <string>find</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="btn_clear">
+       <property name="text">
+        <string>clear</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="btn_pop_front">
+       <property name="text">
+        <string>pop_front</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Заготовки</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="btn_dec_iterator">
+       <property name="text">
+        <string>--</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QPushButton" name="btn_shuffle">
+       <property name="text">
+        <string>shuffle</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="btn_erase">
+       <property name="text">
+        <string>erase</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="3">
+      <widget class="QPushButton" name="btn_resize">
+       <property name="text">
+        <string>resize</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLineEdit" name="txt_elem_content"/>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="btn_maxel">
+       <property name="text">
+        <string>max_element</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QPushButton" name="btn_merge_sort_nonereg">
+       <property name="text">
+        <string>merge sOrT</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QPushButton" name="btn_minel">
+       <property name="text">
+        <string>min_element</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QPushButton" name="btn_reverse">
+       <property name="text">
+        <string>reverse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="btn_edit">
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1" colspan="2">
+      <widget class="QLineEdit" name="txt_size"/>
+     </item>
+     <item row="18" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>size():</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="btn_insert">
+       <property name="text">
+        <string>insert</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QPushButton" name="btn_upper_bound">
+       <property name="text">
+        <string>upper_bound</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QPushButton" name="btn_merge_sort">
+       <property name="text">
+        <string>merge sort</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="btn_count">
+       <property name="text">
+        <string>count</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QPushButton" name="btn_unique">
+       <property name="text">
+        <string>unique</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Итератор</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLineEdit" name="le_count"/>
+     </item>
+     <item row="16" column="0">
+      <widget class="QPushButton" name="btn_lower_bound">
+       <property name="text">
+        <string>lower_bound</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="btn_push_back">
+       <property name="text">
+        <string>push_back</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="btn_cakes">
+       <property name="text">
+        <string>= торты</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="btn_inc_iterator">
+       <property name="text">
+        <string>++</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QPushButton" name="btn_tea">
+       <property name="text">
+        <string>= чай</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="btn_pop_back">
+       <property name="text">
+        <string>pop_back</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Методы</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="btn_push_front">
+       <property name="text">
+        <string>push_front</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="btn_end">
+       <property name="text">
+        <string>end</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
